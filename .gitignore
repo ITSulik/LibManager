@@ -1,41 +1,46 @@
 # Build results
-bin/
-obj/
+**/bin/
+**/obj/
+*.dll
+*.exe
+*.app
+
+# User-specific files
 *.user
-*.rsuser
+*.userosscache
 *.suo
-*.cache
-*.log
+*.sln.docstates
+*.userprefs
+*.rsuser
 
-# Visual Studio
-.vs/
+# VS Code & Visual Studio
 .vscode/
+.vs/
 
-# Rider
+# JetBrains Rider
 .idea/
-
-# NuGet
-*.nupkg
-*.snupkg
-packages/
-*.nuspec
-
-# .NET Core
-project.lock.json
-project.fragment.lock.json
-artifacts/
 
 # OS junk files
 .DS_Store
 Thumbs.db
 
-# Optional: secrets or settings
+# .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+.nuget/
+packages/
+*.nupkg
+*.snupkg
+*.nuspec
+
+# Environment files / secrets
 appsettings.*.json
 secrets.json
+.env
 
-# User-specific files
-*.userprefs
-*.sln.docstates
+# Logs
+*.log
 
-# Global JSON
-global.json
+# Publish output
+publish/
