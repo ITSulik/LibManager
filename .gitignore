@@ -1,0 +1,41 @@
+# Build results
+bin/
+obj/
+*.user
+*.rsuser
+*.suo
+*.cache
+*.log
+
+# Visual Studio
+.vs/
+.vscode/
+
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Optional: secrets or settings
+appsettings.*.json
+secrets.json
+
+# User-specific files
+*.userprefs
+*.sln.docstates
+
+# Global JSON
+global.json
